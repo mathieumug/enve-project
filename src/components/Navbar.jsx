@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import NavServicesTab from './NavServicesTab'
+import Image from 'next/image'
+
+import logo from '../../assets/logo.png'
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -17,7 +20,15 @@ function Navbar() {
     <nav className="fixed top-0 left-0 z-40 flex items-center w-full h-24 bg-white shadow-lg rounded-b-3xl">
       <div className="container flex flex-row items-center px-16 mx-auto">
         <div className="flex">
-          <div className="w-20 h-20 rounded-full bg-neutral-200"></div>
+          <div className="w-20 h-20 rounded-full bg-neutral-200">
+            <Image
+              src={logo}
+              style={{
+                width: '100%',
+                height: '100%',
+              }}
+            />
+          </div>
         </div>
 
         <div className="flex items-center flex-1 px-12">
@@ -58,7 +69,7 @@ function Navbar() {
         </div>
 
         <div className="flex">
-          <button className="p-2 px-6 text-sm text-black bg-yellow-400 rounded-full">
+          <button className="p-2 px-6 text-sm text-white bg-blue-400 rounded-full">
             Learn more
           </button>
         </div>

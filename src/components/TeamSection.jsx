@@ -19,7 +19,7 @@ function TeamSection() {
             constructions the industry.
           </h3>
 
-          <button className="w-1/2 p-2 bg-yellow-400 rounded-full">
+          <button className="w-1/2 p-2 text-white bg-blue-400 rounded-full">
             Meet the team
           </button>
         </div>
