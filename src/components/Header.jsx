@@ -36,7 +36,7 @@ function Header() {
 
         <div className="flex">
           {/* button */}
-          <button className="p-3 text-black bg-blue-400 rounded-full px-14">
+          <button className="p-3 text-white bg-blue-400 rounded-full px-14">
             Learn more
           </button>
         </div>
