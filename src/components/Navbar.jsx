@@ -69,7 +69,10 @@ function Navbar() {
         </div>
 
         <div className="flex">
-          <button className="p-2 px-6 text-sm text-white bg-blue-400 rounded-full">
+          <button
+            onClick={() => scrollToPosition('projects')}
+            className="p-2 px-6 text-sm text-white bg-blue-400 rounded-full"
+          >
             Learn more
           </button>
         </div>
