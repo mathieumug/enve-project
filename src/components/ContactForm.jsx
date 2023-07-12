@@ -17,9 +17,15 @@ const ContactForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
+    <form
+      onSubmit={handleSubmit}
+      className="w-full max-w-md mx-auto mb-6 md:mb-0"
+    >
       <div className="mb-4">
-        <label htmlFor="name" className="block mb-2 font-medium text-gray-700">
+        <label
+          htmlFor="name"
+          className="block mb-2 text-sm font-medium text-gray-700 md:text-base"
+        >
           Name
         </label>
         <input
@@ -32,7 +38,10 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block mb-2 font-medium text-gray-700">
+        <label
+          htmlFor="email"
+          className="block mb-2 text-sm font-medium text-gray-700 md:text-base"
+        >
           Email
         </label>
         <input
@@ -47,7 +56,7 @@ const ContactForm = () => {
       <div className="mb-4">
         <label
           htmlFor="message"
-          className="block mb-2 font-medium text-gray-700"
+          className="block mb-2 text-sm font-medium text-gray-700 md:text-base"
         >
           Message
         </label>

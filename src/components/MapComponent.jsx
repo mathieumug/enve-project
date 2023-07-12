@@ -18,15 +18,17 @@ function MapComponent() {
       id="contact"
       className="flex flex-col items-center h-screen p-5 text-black bg-white "
     >
-      <h1 className="my-4 text-2xl font-medium text-black">Find Us At</h1>
-      <h4 className="w-1/2 text-sm text-center">
+      <h1 className="my-4 text-xl font-medium text-black md:text-2xl">
+        Find Us At
+      </h1>
+      <h4 className="w-1/2 text-xs text-center md:text-sm">
         We are located at Harmony Complex Building, Room No.H18, 1st Floor,
         Kyaliwajjala-Kira Road next to Total Fuel Station Uganda.
       </h4>
 
-      <div className="flex w-full h-full py-8 overflow-hidden rounded-lg">
+      <div className="flex flex-col w-full h-full py-8 overflow-hidden rounded-lg md:flex-row">
         <div className="flex flex-col items-center w-full h-full bg-white justify-evenly">
-          <h1 className="text-2xl font-bold"> Write to us</h1>
+          <h1 className="text-xl font-bold md:text-2xl"> Write to us</h1>
           <ContactForm />
         </div>
         <GoogleMapReact

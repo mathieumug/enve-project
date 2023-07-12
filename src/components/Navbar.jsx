@@ -17,10 +17,10 @@ function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 z-40 flex items-center w-full h-24 bg-white shadow-lg rounded-b-3xl">
-      <div className="container flex flex-row items-center px-16 mx-auto">
+    <nav className="fixed top-0 left-0 z-40 flex items-center w-full h-20 bg-white shadow-lg md:h-24 rounded-b-3xl">
+      <div className="container flex flex-row items-center px-8 mx-auto md:px-16">
         <div className="flex">
-          <div className="w-20 h-20 rounded-full bg-neutral-200">
+          <div className="w-10 h-10 rounded-full md:w-20 md:h-20 bg-neutral-200">
             <Image
               src={logo}
               style={{
@@ -31,7 +31,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center flex-1 px-12">
+        <div className="items-center flex-1 hidden px-12 md:flex">
           <ul className="flex items-center justify-end flex-1 py-4">
             <li>
               <div
@@ -68,7 +68,7 @@ function Navbar() {
           </ul>
         </div>
 
-        <div className="flex">
+        <div className="hidden md:flex">
           <button
             onClick={() => scrollToPosition('projects')}
             className="p-2 px-6 text-sm text-white bg-blue-400 rounded-full"

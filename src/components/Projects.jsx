@@ -7,38 +7,58 @@ function ProjectsTab() {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center h-screen p-10 text-black bg-white px-28"
+      className="flex flex-col items-center justify-center p-5 text-black bg-white md:p-10 md:h-screen md:px-28"
     >
       <h1 className="w-1/2 text-3xl font-medium text-center text-black">
         Projects
       </h1>
-      <h4>Below are some of our services:</h4>
+      <h4 className="text-sm text-center">Below are some of our services:</h4>
 
       {/* Tabs */}
-      <ul className="flex flex-row justify-between w-2/3 p-2 my-4">
-        <li className="p-2 font-medium">
-          <input type="radio" name="" id="" className="p-2 mr-2" />
+      <ul className="flex flex-row justify-between my-4 md:p-2 md:w-2/3">
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
           Consultancy Services
         </li>
-        <li className="p-2 font-medium">
-          <input type="radio" name="" id="" className="p-2 mr-2" />
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
           Water Development
         </li>
-        <li className="p-2 font-medium">
-          <input type="radio" name="" id="" className="p-2 mr-2" />
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
           Surveying Works
         </li>
-        <li className="p-2 font-medium">
-          <input type="radio" name="" id="" className="p-2 mr-2" />
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
           Civil Works
         </li>
       </ul>
 
-      <div className="flex flex-row items-center justify-center w-full h-full gap-4 p-4 ">
+      <div className="flex flex-col justify-center w-full h-full md:items-center md:gap-4 md:p-4 md:flex-row ">
         {tabsData.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center w-full h-full p-10 bg-white rounded-lg justify-evenly"
+            className="flex flex-col items-center mb-5 bg-white rounded-lg md:w-full md:h-full md:p-10 md:justify-evenly"
           >
             <div className="w-full h-full overflow-hidden rounded-lg bg-neutral-300">
               <Image
@@ -46,7 +66,7 @@ function ProjectsTab() {
                 style={{ width: '100%', height: '100%' }}
               />
             </div>
-            <div className="flex flex-col w-full py-5 h-2/3">
+            <div className="flex flex-col w-full py-5 md:h-2/3">
               <h1 className="font-bold">{item.title}</h1>
               <h1>{item.description}</h1>
             </div>
