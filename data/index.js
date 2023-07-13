@@ -10,19 +10,19 @@ export const maniTabsData = [
     id: 1,
     image: water,
     title: 'Clean water development',
-    description: 'Provide clean water using boreholes',
+    description: 'We provide safe and sustainable water for both domestic and agricultural use using different technologies.',
   },
   {
     id: 2,
     image: solar,
-    title: 'Solar energy projects',
-    description: 'Installation and maintaince of Solar Pump Controls.',
+    title: 'Mortorized Solar energy projects',
+    description: 'We use solar as a major source of power for our water systems',
   },
   {
     id: 3,
     image: school,
-    title: 'Construction of schools',
-    description: 'Facilitatiing building of Educational Infrastructure',
+    title: 'Building and Construction works',
+    description: 'We construct schools, health facilities,sanitation facilities, extra',
   },
 ]
 
@@ -45,6 +45,6 @@ export const tabsData = [
     id: 3,
     image: toi,
     title: 'Building and infrastructure.',
-    description: 'Construction of schools.',
+    description: 'Construction of VIP Latrines.',
   },
 ]

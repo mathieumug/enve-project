@@ -8,7 +8,7 @@ function Footer() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="text-xs md:text-sm ">
-            © {currentYear} Enve Engineering Consults (U) Ltd. All rights
+            © {currentYear} Enve Engineering Consults (Ug) Ltd. All rights
             reserved.
           </div>
           <a href="https://github.com/JovanMwesigwa" className="hidden md:flex">

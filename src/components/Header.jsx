@@ -60,7 +60,7 @@ function Header() {
       <div className="absolute inset-0 flex flex-col justify-center flex-1 px-4 md:px-8 md:w-1/2 md:mx-16 ">
         <div className="flex flex-col">
           <h1 className="text-5xl font-bold text-white">
-            Enve Engineering Consults
+            Enve Engineering Consults Ug Limited
           </h1>
 
           <h5 className="my-6 text-2xl">

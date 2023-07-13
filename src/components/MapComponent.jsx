@@ -22,8 +22,8 @@ function MapComponent() {
         Find Us At
       </h1>
       <h4 className="w-1/2 text-xs text-center md:text-sm">
-        We are located at Harmony Complex Building, Room No.H18, 1st Floor,
-        Kyaliwajjala-Kira Road next to Total Fuel Station Uganda.
+        We are located at Plot CH18, Church Road, off
+        Kyaliwajjala-Kira Road just after Total Fuel Station Uganda.
       </h4>
 
       <div className="flex flex-col w-full h-full py-8 overflow-hidden rounded-lg md:flex-row">

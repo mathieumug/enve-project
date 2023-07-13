@@ -23,15 +23,6 @@ function ProjectsTab() {
             id=""
             className="hidden p-2 mr-2 md:flex"
           />
-          Consultancy Services
-        </li>
-        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
-          <input
-            type="radio"
-            name=""
-            id=""
-            className="hidden p-2 mr-2 md:flex"
-          />
           Water Development
         </li>
         <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
@@ -41,7 +32,7 @@ function ProjectsTab() {
             id=""
             className="hidden p-2 mr-2 md:flex"
           />
-          Surveying Works
+          Irrigation Systems
         </li>
         <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
           <input
@@ -50,7 +41,25 @@ function ProjectsTab() {
             id=""
             className="hidden p-2 mr-2 md:flex"
           />
-          Civil Works
+          Building and Construction works
+        </li>
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
+          Hydrogeological and Land Surveying
+        </li>
+        <li className="flex flex-row items-center p-2 text-xs font-medium text-center">
+          <input
+            type="radio"
+            name=""
+            id=""
+            className="hidden p-2 mr-2 md:flex"
+          />
+          Consultancy Services
         </li>
       </ul>
 

@@ -16,7 +16,7 @@ function TabsSection() {
       className="flex flex-col items-center justify-center p-5 text-black md:p-10 md:h-screen bg-neutral-50 md:px-28"
     >
       <h1 className="text-2xl font-medium text-center text-black md:text-3xl md:w-1/2">
-        We provide the right solutions instead of the easy solutions
+        We provide the right and affordable solutions instead of easy solutions
       </h1>
 
       {/* Tabs */}
